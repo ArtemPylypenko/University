@@ -1,0 +1,20 @@
+D:\Proga\C#\Timer_Alarm\Timer_Alarm\bin\Debug\Timer_Alarm.exe
+D:\Proga\C#\Timer_Alarm\Timer_Alarm\bin\Debug\Timer_Alarm.pdb
+D:\Proga\C#\Timer_Alarm\Timer_Alarm\obj\Debug\Timer_Alarm.csproj.AssemblyReference.cache
+D:\Proga\C#\Timer_Alarm\Timer_Alarm\obj\Debug\Timer_Alarm.Form1.resources
+D:\Proga\C#\Timer_Alarm\Timer_Alarm\obj\Debug\Timer_Alarm.Properties.Resources.resources
+D:\Proga\C#\Timer_Alarm\Timer_Alarm\obj\Debug\Timer_Alarm.csproj.GenerateResource.cache
+D:\Proga\C#\Timer_Alarm\Timer_Alarm\obj\Debug\Timer_Alarm.csproj.CoreCompileInputs.cache
+D:\Proga\C#\Timer_Alarm\Timer_Alarm\obj\Debug\Timer_Alarm.exe
+D:\Proga\C#\Timer_Alarm\Timer_Alarm\obj\Debug\Timer_Alarm.pdb
+D:\Proga\C#\Timer_Alarm\Timer_Alarm\obj\Debug\Timer_Alarm.Form2.resources
+D:\Study\Term 2\OOOP\Timer_Alarm\Timer_Alarm\Timer_Alarm\bin\Debug\Timer_Alarm.exe
+D:\Study\Term 2\OOOP\Timer_Alarm\Timer_Alarm\Timer_Alarm\bin\Debug\Timer_Alarm.pdb
+D:\Study\Term 2\OOOP\Timer_Alarm\Timer_Alarm\Timer_Alarm\obj\Debug\Timer_Alarm.csprojAssemblyReference.cache
+D:\Study\Term 2\OOOP\Timer_Alarm\Timer_Alarm\Timer_Alarm\obj\Debug\Timer_Alarm.Form1.resources
+D:\Study\Term 2\OOOP\Timer_Alarm\Timer_Alarm\Timer_Alarm\obj\Debug\Timer_Alarm.Form2.resources
+D:\Study\Term 2\OOOP\Timer_Alarm\Timer_Alarm\Timer_Alarm\obj\Debug\Timer_Alarm.Properties.Resources.resources
+D:\Study\Term 2\OOOP\Timer_Alarm\Timer_Alarm\Timer_Alarm\obj\Debug\Timer_Alarm.csproj.GenerateResource.cache
+D:\Study\Term 2\OOOP\Timer_Alarm\Timer_Alarm\Timer_Alarm\obj\Debug\Timer_Alarm.csproj.CoreCompileInputs.cache
+D:\Study\Term 2\OOOP\Timer_Alarm\Timer_Alarm\Timer_Alarm\obj\Debug\Timer_Alarm.exe
+D:\Study\Term 2\OOOP\Timer_Alarm\Timer_Alarm\Timer_Alarm\obj\Debug\Timer_Alarm.pdb
