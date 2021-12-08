@@ -39,6 +39,9 @@ namespace Timer_Alarm
             this.button2 = new System.Windows.Forms.Button();
             this.tabControlAlarm = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -46,9 +49,6 @@ namespace Timer_Alarm
             this.button4 = new System.Windows.Forms.Button();
             this.AlarmflowLayout = new System.Windows.Forms.FlowLayoutPanel();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.hoursUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.minutesUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.secondsUpDown)).BeginInit();
@@ -77,14 +77,14 @@ namespace Timer_Alarm
             // 
             this.hoursUpDown.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
             this.hoursUpDown.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.hoursUpDown.Location = new System.Drawing.Point(94, 49);
+            this.hoursUpDown.Location = new System.Drawing.Point(90, 49);
             this.hoursUpDown.Maximum = new decimal(new int[] {
             23,
             0,
             0,
             0});
             this.hoursUpDown.Name = "hoursUpDown";
-            this.hoursUpDown.Size = new System.Drawing.Size(39, 31);
+            this.hoursUpDown.Size = new System.Drawing.Size(43, 31);
             this.hoursUpDown.TabIndex = 4;
             // 
             // minutesUpDown
@@ -97,20 +97,20 @@ namespace Timer_Alarm
             0,
             0});
             this.minutesUpDown.Name = "minutesUpDown";
-            this.minutesUpDown.Size = new System.Drawing.Size(39, 31);
+            this.minutesUpDown.Size = new System.Drawing.Size(43, 31);
             this.minutesUpDown.TabIndex = 5;
             // 
             // secondsUpDown
             // 
             this.secondsUpDown.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
-            this.secondsUpDown.Location = new System.Drawing.Point(184, 49);
+            this.secondsUpDown.Location = new System.Drawing.Point(188, 49);
             this.secondsUpDown.Maximum = new decimal(new int[] {
             59,
             0,
             0,
             0});
             this.secondsUpDown.Name = "secondsUpDown";
-            this.secondsUpDown.Size = new System.Drawing.Size(39, 31);
+            this.secondsUpDown.Size = new System.Drawing.Size(43, 31);
             this.secondsUpDown.TabIndex = 6;
             // 
             // button2
@@ -158,6 +158,36 @@ namespace Timer_Alarm
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Timer";
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Cooper Black", 9.75F);
+            this.label6.Location = new System.Drawing.Point(190, 116);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(0, 15);
+            this.label6.TabIndex = 19;
+            this.label6.Visible = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Cooper Black", 9.75F);
+            this.label5.Location = new System.Drawing.Point(139, 116);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(0, 15);
+            this.label5.TabIndex = 18;
+            this.label5.Visible = false;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Cooper Black", 9.75F);
+            this.label4.Location = new System.Drawing.Point(91, 116);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(0, 15);
+            this.label4.TabIndex = 17;
+            this.label4.Visible = false;
             // 
             // label3
             // 
@@ -224,36 +254,6 @@ namespace Timer_Alarm
             // timer2
             // 
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Cooper Black", 9.75F);
-            this.label4.Location = new System.Drawing.Point(91, 116);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(0, 15);
-            this.label4.TabIndex = 17;
-            this.label4.Visible = false;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Cooper Black", 9.75F);
-            this.label5.Location = new System.Drawing.Point(139, 116);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 15);
-            this.label5.TabIndex = 18;
-            this.label5.Visible = false;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Cooper Black", 9.75F);
-            this.label6.Location = new System.Drawing.Point(190, 116);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(0, 15);
-            this.label6.TabIndex = 19;
-            this.label6.Visible = false;
             // 
             // Form1
             // 
