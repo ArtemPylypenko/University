@@ -13,8 +13,12 @@ struct Node {
 
 struct Graph {
 	vector<Node> vertex;
-
-
+	Graph() {
+		Node firts;
+		firts.vertexIndex = 0;
+		this->vertex.push_back(firts);
+	}
+	
 	void show() {
 		for (int i = 0; i < vertex.size(); i++) {
 			cout << vertex[i].vertexIndex << " ";
@@ -160,14 +164,13 @@ int main() {
 		cin >> operation;
 		switch (operation)
 		{
-		default:
-			break;
 		case 1:
 		{
 			cout << "enter vertex index " << endl;
 			int vertex;
 			cin >> vertex;
 			myGraph.addVertex(vertex);
+			break;
 		}
 		case 2:
 		{
@@ -176,10 +179,12 @@ int main() {
 			int vertex2;
 			cin >> vertex1>>vertex2;
 			myGraph.addEdge(vertex1, vertex2);
+			break;
 		}
 		case 3:
 		{
 			myGraph.show();
+			break;
 		}
 		case 4:
 		{
@@ -193,11 +198,13 @@ int main() {
 	
 				deep(myGraph.vertex[0], visited, skeletaLtree, myGraph);
 				skeletaLtree.show();
+				break;
 		}
 		case 5:
 		{
 
 			exit=true;
+			break;
 		}
 		}
 	}
